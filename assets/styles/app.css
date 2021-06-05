@@ -9,7 +9,7 @@ span.logo-icon {
   width: 12rem;
   height: 12rem;
   background: white;
-  animation: 15s morph cubic-bezier(0.11, 0.79, 0.11, 0.99) infinite;
+  animation: 6s morph cubic-bezier(0.11, 0.79, 0.11, 0.99) infinite alternate;
 }
 
 @keyframes morph {
@@ -17,23 +17,23 @@ span.logo-icon {
     clip-path: polygon(60% 42%, 80% 42%, 40% 100%, 38% 100%, 55% 55%, 35% 55%, 60% 0%, 80% 0%);
     background-color: #fdc82e;
   }
-  50% {
+  40% {
     clip-path: polygon(60% 42%, 80% 42%, 40% 100%, 38% 100%, 55% 55%, 35% 55%, 60% 0%, 80% 0%);
     background-color: #fdc82e;
   }
-  60% {
+  50% {
     clip-path: polygon(58% 42%, 100% 50%, 50% 50%, 50% 100%, 42% 58%, 0% 50%, 50% 50%, 50% 0%);
     background-color: #b2dd57;
   }
-  70% {
+  60% {
     clip-path: polygon(37.5% 25%, 62.5% 25%, 75% 37.5%, 75% 62.5%, 62.5% 75%, 37.5% 75%, 25% 62.5%, 25% 37.5%);
     background-color: #3b82f6;
   }
-  80% {
+  70% {
     clip-path: polygon(25% 25%, 75% 50%, 25% 75%, 25% 50%, 25% 50%, 25% 50%, 25% 50%, 25% 50%);
     background-color: #cccccc;
   }
-  90% {
+  80% {
     clip-path: polygon(50% 25%, 100% 50%, 50% 75%, 50% 50%, 0% 25%, 0% 50%, 0% 75%, 50% 50%);
     background-color: #2ca7d8;
   }
