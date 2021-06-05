@@ -360,7 +360,7 @@
     <!-- timeline -->
     <section>
         <div class="bg-gray-900 text-white py-8">
-            <div class="container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:mt-20 lg:mb-20 mx-auto flex flex-col items-start md:flex-row my-10 md:my-20">
+            <div class="container max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-8 lg:mt-20 lg:mb-20 mx-auto flex flex-col items-start md:flex-row my-10 md:my-20">
                 <div class="flex flex-col w-full sticky md:top-36 md:w-1/5 mt-2 md:mt-12 ">
                     <h2 class="text-3xl font-extrabold tracking-tight text-gray-100 sm:text-4xl">
                         Roadmap
@@ -372,16 +372,18 @@
                 <div class="ml-0 md:ml-12 md:w-4/5 sticky">
                     <div class="container mx-auto w-full h-full">
                         <div class="relative wrap p-10 h-full">
-                            <div class="border-2-2 border-yellow-555 absolute h-full border"
+                            <div class="border-2-2 border-yellow-555 absolute h-full border block md:hidden"
+                                 style="left: 2%; border: 2px solid #FFC100; border-radius: 1%;"></div>
+                            <div class="border-2-2 border-yellow-555 absolute h-full border hidden md:block"
                                  style="right: 50%; border: 2px solid #FFC100; border-radius: 1%;"></div>
-                            <div class="border-2-2 border-yellow-555 absolute h-full border"
+                            <div class="border-2-2 border-yellow-555 absolute h-full border hidden md:block"
                                  style="left: 50%; border: 2px solid #FFC100; border-radius: 1%;"></div>
                             <div class="w-full">
-                                <img class="h-60 md:-mt-24 ml-12 md:-ml-10 z-10 absolute" src="assets/images/roadmap-rocket.png" style="left: 50%; "/>
+                                <img class="h-60 md:-mt-24 ml-12 md:-ml-10 z-10 absolute hidden md:block" src="assets/images/roadmap-rocket.png" style="left: 50%; "/>
                             </div>
                             <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                                <div class="order-1 w-5/12"></div>
-                                <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                <div class="order-1 md:w-5/12"></div>
+                                <div class="order-1 md:w-5/12 px-1 py-4 text-left md:text-right">
                                     <p class="mb-3 text-base text-yellow-300">Q2 - June 2021</p>
                                     <h4 class="mb-1 font-bold text-lg md:text-xl">Security audit <br/>before the launch</h4>
 
@@ -424,8 +426,8 @@
                                 </div>
                             </div>
                             <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                                <div class="order-1 w-5/12"></div>
-                                <div class="order-1  w-5/12 px-1 py-4 text-left">
+                                <div class="order-1 md:w-5/12"></div>
+                                <div class="order-1 md:w-5/12 px-1 py-4 text-left">
                                     <p class="mb-3 text-base text-yellow-300">Q3 - July to September 2021</p>
                                     <h4 class="mb-1 font-bold text-lg md:text-xl">First community airdrop to celebrate the launch <span class="px-2 py-1 mr-2 text-xs font-bold leading-none text-gray-100 bg-gray-600 rounded-full">July</span></h4>
 
@@ -467,8 +469,8 @@
                                 </div>
                             </div>
                             <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                                <div class="order-1 w-5/12"></div>
-                                <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                <div class="order-1 md:w-5/12"></div>
+                                <div class="order-1 md:w-5/12 px-1 py-4 text-left md:text-right">
                                     <p class="mb-3 text-base text-yellow-300">Q4 - October to December 2021</p>
                                     <h4 class="mb-1 font-bold text-lg md:text-xl">Chains integration</h4>
 
@@ -487,9 +489,8 @@
                             </div>
 
                             <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                                <div class="order-1 w-5/12"></div>
-
-                                <div class="order-1  w-5/12 px-1 py-4">
+                                <div class="order-1 md:w-5/12"></div>
+                                <div class="order-1 md:w-5/12 px-1 py-4 text-left">
                                     <p class="mb-3 text-base text-yellow-300">2022 and further</p>
                                     <h4 class="mb-1 font-bold text-lg md:text-xl">ETH2.0 integration</h4>
 
