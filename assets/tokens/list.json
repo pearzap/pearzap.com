@@ -1,0 +1,34 @@
+{
+  "name": "PearZap Token List",
+  "version": {
+    "major": 0,
+    "minor": 2,
+    "patch": 0
+  },
+  "keywords": [
+    "pearzap",
+    "tokens",
+    "trusted",
+    "juix"
+  ],
+  "logoURI": "https://pearzap.com/assets/tokens/juix.svg",
+  "timestamp": "2021-11-14T16:15:22+0000",
+  "tokens": [
+    {
+      "name": "PearZap",
+      "chainId": 137,
+      "symbol": "PEAR",
+      "decimals": 18,
+      "address": "0xc8bcb58caEf1bE972C0B638B1dD8B0748Fdc8A44",
+      "logoURI": "https://pearzap.com/assets/tokens/logo/pear.svg"
+    },
+    {
+      "name": "PearZap DEX",
+      "chainId": 137,
+      "symbol": "JUIX",
+      "decimals": 18,
+      "address": "0xc8bcb58caEf1bE972C0B638B1dD8B0748Fdc8A44",
+      "logoURI": "https://pearzap.com/assets/tokens/logo/juix.svg"
+    }
+  ]
+}
