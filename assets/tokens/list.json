@@ -29,6 +29,14 @@
       "decimals": 18,
       "address": "0xc8bcb58caEf1bE972C0B638B1dD8B0748Fdc8A44",
       "logoURI": "https://pearzap.com/assets/tokens/logo/juix.svg"
+    },
+    {
+      "name": "POLYDeFi",
+      "chainId": 137,
+      "symbol": "OCTAGON",
+      "decimals": 18,
+      "address": "0x285209dd294fb6763740e1c92d654d92eaaadf22",
+      "logoURI": "https://pearzap.com/assets/tokens/logo/octagon.svg"
     }
   ]
 }
