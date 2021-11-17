@@ -23,20 +23,28 @@
       "logoURI": "https://pearzap.com/assets/tokens/logo/pear.svg"
     },
     {
-      "name": "PearZap DEX",
+      "name": "Polygon (MATIC)",
       "chainId": 137,
-      "symbol": "JUIX",
+      "symbol": "MATIC",
       "decimals": 18,
-      "address": "0xc8bcb58caEf1bE972C0B638B1dD8B0748Fdc8A44",
-      "logoURI": "https://pearzap.com/assets/tokens/logo/juix.svg"
+      "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+      "logoURI": "https://pearzap.com/assets/tokens/blockchains/polygon/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/logo.png"
     },
     {
-      "name": "POLYDeFi",
+      "name": "Polygon WMATIC",
       "chainId": 137,
-      "symbol": "OCTAGON",
+      "symbol": "WMATIC",
       "decimals": 18,
-      "address": "0x285209dd294fb6763740e1c92d654d92eaaadf22",
-      "logoURI": "https://pearzap.com/assets/tokens/logo/octagon.svg"
+      "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "logoURI": "https://pearzap.com/assets/tokens/blockchains/polygon/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/logo.png"
+    },
+    {
+      "name": "USDC",
+      "chainId": 137,
+      "symbol": "USDC",
+      "decimals": 18,
+      "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "logoURI": "https://pearzap.com/assets/tokens/blockchains/polygon/assets/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/logo.png"
     }
   ]
 }
