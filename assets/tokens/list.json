@@ -2,7 +2,7 @@
   "name": "PearZap Token List",
   "version": {
     "major": 1,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   },
   "keywords": [
@@ -37,6 +37,14 @@
       "decimals": 6,
       "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "logoURI": "https://pearzap.com/assets/tokens/blockchains/polygon/assets/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/logo.png"
+    },
+    {
+      "name": "POLYDeFi",
+      "chainId": 137,
+      "symbol": "OCTAGON",
+      "decimals": 18,
+      "address": "0x285209dd294fb6763740e1c92d654d92eaaadf22",
+      "logoURI": "https://pearzap.com/assets/tokens/blockchains/polygon/assets/0x285209dd294fb6763740E1C92D654D92EaaAdf22/logo.png"
     }
   ]
 }
